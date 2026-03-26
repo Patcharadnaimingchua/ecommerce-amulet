@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 
 // ─── Config ───────────────────────────────────────────────────────────────────
-const API = "http://localhost:3000";
+const API = "https://ecommerce-backend-ep03.onrender.com";
 const ah = (t) => ({ "Content-Type": "application/json", Authorization: `Bearer ${t}` });
 const jh = () => ({ "Content-Type": "application/json" });
 const req = async (method, path, body, token) => {
