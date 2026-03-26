@@ -5,7 +5,7 @@ const cors = require('cors');
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://patcharadnaimingchua.github.io",
+    "https://patcharadnaimingchua.github.io/ecommerce-amulet",
     "https://e-commerce-jet-two-95.vercel.app"
   ],
   credentials: true
